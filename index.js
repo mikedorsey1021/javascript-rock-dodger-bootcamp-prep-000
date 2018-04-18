@@ -126,7 +126,7 @@ function endGame() {
     rock.remove();
     document.removeEventListener("keydown", moveDodger);
   });
-
+debugger; 
   document.removeEventListener("keydown", moveDodger);
 
   // START.style.display = 'inline'
