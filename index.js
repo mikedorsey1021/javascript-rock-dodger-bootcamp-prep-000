@@ -126,7 +126,7 @@ debugger;
     rock.remove();
   });
 
-  document.removeEventListener("keydown", moveDodger);
+  document.body.removeEventListener("keydown", moveDodger);
 
   // START.style.display = 'inline'
 
