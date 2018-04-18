@@ -126,7 +126,7 @@ function endGame() {
 
   document.removeEventListener('keydown', moveDodger)
 
-  START.style.display = 'inline'
+  // START.style.display = 'inline'
 
   return alert('YOU LOSE!')
 }
